@@ -1,0 +1,5 @@
+number = input()
+number = number.replace('+', '').replace('-', '')
+number = number.replace('(', '').replace(')', '')
+number = number.replace(' ', '')
+print(number)

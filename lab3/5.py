@@ -1,0 +1,6 @@
+ind = input()
+print('Длина:', len(ind))
+print('Только буквы:', ind.isalpha())
+print('Только цифры:', ind.isdigit())
+print('Буквенно-цифровая:', ind.isalnum())
+print('Содержит дефис:', '-' in ind)

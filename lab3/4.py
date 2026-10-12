@@ -1,0 +1,7 @@
+inf = input()
+parts = inf.split(';')
+cost = float(parts[4])
+print('Поезд:', parts[0])
+print('Маршрут:', parts[1], '-', parts[2])
+print('Отправление:', parts[3])
+print(f'Цена: {cost:.2f} руб')
